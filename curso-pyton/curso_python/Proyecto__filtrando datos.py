@@ -88,8 +88,8 @@ def run():
     # for worker in adults:
     #     print(worker)
 
-    for worker in old_people:
-        print(worker)
+    # for worker in old_people:
+    #     print(worker)
 
 
 if __name__ == '__main__':
