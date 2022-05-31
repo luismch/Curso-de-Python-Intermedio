@@ -1,7 +1,6 @@
 import random
 import os
 
-
 def read_data(filepath="./archivos/data.txt"):
     words = []
     with open(filepath, "r", encoding="utf-8") as f:
@@ -41,5 +40,5 @@ def run():
             break
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     run()
