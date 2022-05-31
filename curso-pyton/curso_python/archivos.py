@@ -8,7 +8,7 @@ def read():
 
 
 def write():
-    names = ["stiven", "Luis", "Francisco", "Marco", "Maria"]
+    names = ["stiven", "Luis", "Francisco", "Marco", "Maria","Pepe"]
     with open("./archivos/names.txt", "a", encoding = "utf-8") as f:
         for name in names:
             f.write(name)
